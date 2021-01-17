@@ -1,0 +1,304 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background: white;
+    height: 0px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  /*--- navigation bar ---*/
+  .navbar {
+    background: #ced4da;
+  }
+  .nav-link,
+  .navbar-brand {
+    color: black;
+    cursor: pointer;
+  }
+  .nav-link {
+    margin-right: 1em !important;
+  }
+  .nav-link:hover {
+    color: rgb(77, 136, 224);
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+  .header{
+
+    background-image: url("./Images/firstBG.jpg");
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    height: 400px;
+    width: 100%;
+  
+  }
+  
+
+  
+  .third{
+    margin-top: 40px;
+   background-color: #ced4da ;
+   height: 370px;
+   width: 100%;
+    
+  }
+
+  .forth {
+
+    height: 300px;
+    width: 100%
+  
+
+  }
+
+  .fifth {
+
+    background-color: #ced4da ;
+   height: 400px;
+   width: 100%;
+   text-align: center;
+   padding-inline-start: 15%;
+
+  }
+  
+
+  
+
+  .overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+  
+
+   .description {
+    left: 30%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -55%);
+    text-align:left;
+  }
+  .description h3{
+    color: #6ab446;
+  }
+  .description div {
+    left: 40%;
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+
+  .description button {
+    border:1px solid #6ab446;
+    background:black;
+    border-radius: 0;
+    color:#fff;
+  }
+  .description button:hover {
+    border:1px solid #fff;
+    background:#fff;
+    color:#000;
+  }
+
+
+  .buttoncntent {
+     margin: auto;
+    margin-top: 15px;
+   display: block;
+   border-radius: 22px;
+   background-color: black;
+
+}
+ 
+
+  
+@media (min-width:1000px)
+{  
+    .card-deck .card {
+  
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+    width: 30px;
+    
+    font-size: inherit;
+}
+
+.card-deck {
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
+}
+
+}
+
+
+.carditemsicons {
+
+    margin-top: 15px;
+  margin-left: 15px;
+ 
+}
+
+.card{
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.2), 0 0 6px rgba(0,0,0,.05);
+      transition: .1s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+ cursor: pointer;
+}
+
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.10), 0 4px 8px rgba(0,0,0,.2);
+}
+
+.testimonials{
+
+     margin-top: 10%;
+  margin-left: 25%;
+  width: 60%;
+  height: 60%;
+  
+
+}
+
+/* overlapping button concept */ 
+.input-group-prepend {
+  position: absolute;
+  right: 60px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* carousel */
+
+
+.imgg {
+margin-left: 120px;
+ margin-right: 10px; 
+  margin-top: 80px; 
+  margin-bottom: 30px;
+
+
+}
+
+/* capusle */
+
+.capulse {
+  height: 300px;
+  width: 80%;
+  text-align: center;
+  border-radius: 150px ;
+  background-color: orangered;
+  padding-top: 60px ;
+  padding-bottom: 5px;
+  color: white;
+}
+
+
+
+/*slide show */
+
+.item img {
+    width: 100%;
+    height: auto
+  }
+  
+  .carousel {
+    position: relative;
+    width: 200px;
+    height: 100px;
+  }
+  
+  ol.carousel-indicators {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+  }
+  
+  ol.carousel-indicators li,
+  ol.carousel-indicators li.active {
+    float: left;
+    width: 100%;
+    height: 10px;
+    margin: 0;
+    border-radius: 0;
+    border: 0;
+    background: transparent;
+  }
+  
+  ol.carousel-indicators li.active {
+    background: yellow;
+  }
+
+ 
+
+/*  footer */
+#as-footer {
+    background:#2A2D35;
+    
+}
+#as-footer h3 {
+    color:#fff;
+    font-size:20px;
+    font-weight:600;
+}
+#as-footer ul li {
+    line-height:35px;
+}
+#as-footer a, #as-footer p {
+    color:#b2b9c1;
+    font-size:15px;
+    font-weight:600;
+}
+#as-footer a {
+    color:#b2b9c1;
+    text-decoration:none;
+}
+#as-footer a:hover {
+    color:#fff;
+}
+#as-footer .as_copy {
+    padding-top:40px;
+    border-top:1px solid #373b44;
+}
+
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  height: 10px;
+  border-radius: 100px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand 
+
+/* Facebook  */
+
+
+
+
+
